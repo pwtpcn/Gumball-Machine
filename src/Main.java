@@ -1,5 +1,8 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+/*
+    Thanapoom Chaisena
+    6510450437
+ */
+
 public class Main {
     public static void main(String[] args) {
         GumballMachine m1 = new GumballMachine(5);
@@ -37,6 +40,6 @@ public class Main {
         m1.gumball();
         m1.insertQuarter();
         m1.insertQuarter();
-        
+
     }
 }
