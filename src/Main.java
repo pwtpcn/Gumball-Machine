@@ -1,45 +1,19 @@
-/*
-    Thanapoom Chaisena
-    6510450437
- */
+//6510450437 Thanapoom Chaisena
+
+import models.Machine;
 
 public class Main {
     public static void main(String[] args) {
-        GumballMachine m1 = new GumballMachine(5);
-        m1.gumball();
-        m1.insertQuarter();
-        m1.turnCrank();
+        Machine machine = new Machine(5);
 
-        m1.gumball();
-        m1.insertQuarter();
-        m1.ejectQuarter();
-        m1.turnCrank();
+        machine.insertQuarter();
+        machine.chooseFlavor("Orange");
+        machine.chooseFlavor("Mango");
+        machine.ejectQuarter();
+        machine.turnCrank();
 
-        m1.gumball();
-        m1.insertQuarter();
-        m1.insertQuarter();
-        m1.turnCrank();
-        m1.turnCrank();
-
-        m1.gumball();
-        m1.insertQuarter();
-        m1.turnCrank();
-
-        m1.gumball();
-        m1.insertQuarter();
-        m1.turnCrank();
-
-        m1.gumball();
-        m1.insertQuarter();
-        m1.turnCrank();
-
-        m1.gumball();
-        m1.insertQuarter();
-        m1.turnCrank();
-
-        m1.gumball();
-        m1.insertQuarter();
-        m1.insertQuarter();
-
+        machine.insertQuarter();
+        machine.chooseFlavor("Orange");
+        machine.turnCrank();
     }
 }
